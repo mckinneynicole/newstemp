@@ -1,21 +1,30 @@
 .header {
   background-color:  lightblue;
   height: 200px;
-  width: 80%;
+  width: 1000px;
   margin: 0 auto;
 }
 
 .content {
   background-color: orange;
   height: 600px;
-  width: 100%;
-  margin-top: 10px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 10px
 }
 
 .column {
   background-color: red;
   height: 600px;
-  width: 250px;
+  width: 300px;
+  margin: 0px 16.6px;
 float: left;
-margin-right: 10px;
+}
+
+.story {
+  background-color: purple;
+  width: 300px;
+  height: 280px;
+  margin: 10px 0px; 
+
 }
