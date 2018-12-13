@@ -1,14 +1,27 @@
 .header {
-  background-color:  lightblue;
+  background-color:  lightgray;
   height: 200px;
   width: 1000px;
   margin: 0 auto;
 }
 
+.logo {
+  width: 1000px;
+  height: 175px;
+  background-image:url('../images/News Banner.png');
+}
+
+nav {
+  background-color: yellow;
+  width: 1000px;
+  height: 25px;
+  text-align: center;
+}
+
 .content {
   background-color: orange;
   height: 600px;
-  width: 1000px;
+  width: 1400px;
   margin: 0 auto;
   margin-top: 10px
 }
@@ -16,15 +29,51 @@
 .column {
   background-color: red;
   height: 600px;
-  width: 300px;
-  margin: 0px 16.6px;
+  width: 466.6px;
+/*  margin: 0px 16.6px; */
 float: left;
 }
 
 .story {
   background-color: purple;
-  width: 300px;
+  width: 466.6px;
   height: 280px;
-  margin: 10px 0px; 
+  margin: 10px 0px;
+
+}
+
+/*Start of content 2 */
+.content2 {
+  width: 1400px;
+  height: 500px;
+  background-color: orange;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+
+.middle-article {
+  background-color: grey;
+  width: 970px;
+  height: 490px;
+  margin: 5px;
+  float: left;
+
+
+}
+
+.side-article {
+  background-color: brown;
+  width: 200px;
+  height: 490px;
+  margin: 5px;
+  float: left;
+}
+
+.content3 {
+  width: 1400px;
+  height: 500px;
+  background-color: pink;
+  margin: 0 auto;
 
 }
